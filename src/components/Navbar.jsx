@@ -1,11 +1,14 @@
 import { useState } from 'react'
-import { Menu, X, Mail, BookOpen, User } from 'lucide-react'
+import { Menu, X, Mail, BookOpen, User, Users, FlaskConical, FileText } from 'lucide-react'
 
 export default function Navbar() {
   const [open, setOpen] = useState(false)
 
   const navItems = [
     { label: 'About', href: '#about', icon: User },
+    { label: 'Team', href: '#team', icon: Users },
+    { label: 'Projects', href: '#projects', icon: FlaskConical },
+    { label: 'Publications', href: '#publications', icon: FileText },
     { label: 'Teaching', href: '#teaching', icon: BookOpen },
     { label: 'Contact', href: '#contact', icon: Mail },
   ]

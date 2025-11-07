@@ -1,6 +1,9 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
+import ResearchTeam from './components/ResearchTeam'
+import ResearchProjects from './components/ResearchProjects'
+import Publications from './components/Publications'
 import Teaching from './components/Teaching'
 import Contact from './components/Contact'
 
@@ -11,6 +14,9 @@ function App() {
       <main>
         <Hero />
         <About />
+        <ResearchTeam />
+        <ResearchProjects />
+        <Publications />
         <Teaching />
         <Contact />
       </main>
